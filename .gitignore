@@ -32,3 +32,6 @@ artifacts
 
 #vscode
 .vscode
+
+#History
+.history
