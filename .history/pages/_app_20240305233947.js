@@ -1,7 +1,6 @@
 import { ThemeProvider } from "next-themes";
-import { Script } from "next/script";
-
-import { NavBar, Footer } from "../components";
+import Footer from "../components/Footer";
+import NavBar from "../components/NavBar";
 import "../styles/globals.css";
 
 const MyApp = ({ Component, pageProps }) => (
@@ -11,11 +10,6 @@ const MyApp = ({ Component, pageProps }) => (
       <Component {...pageProps} />
       <Footer />
     </div>
-
-    <Script
-      src="https://kit.fontawesome.com/d0db8599f8.js"
-      crossOrigin="anonymous"
-    />
   </ThemeProvider>
 );
 

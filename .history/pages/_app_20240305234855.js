@@ -12,7 +12,7 @@ const MyApp = ({ Component, pageProps }) => (
       <Footer />
     </div>
 
-    <Script
+    <script
       src="https://kit.fontawesome.com/d0db8599f8.js"
       crossOrigin="anonymous"
     />
